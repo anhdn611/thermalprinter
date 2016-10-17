@@ -13,26 +13,14 @@
 		EC0FD9721DAC7DC4001FE3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0FD9701DAC7DC4001FE3B2 /* Main.storyboard */; };
 		EC0FD9741DAC7DC4001FE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0FD9731DAC7DC4001FE3B2 /* Assets.xcassets */; };
 		EC0FD9771DAC7DC4001FE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0FD9751DAC7DC4001FE3B2 /* LaunchScreen.storyboard */; };
-		EC0FD9821DAC7DC4001FE3B2 /* PrintDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FD9811DAC7DC4001FE3B2 /* PrintDemoTests.m */; };
-		EC0FD98D1DAC7DC4001FE3B2 /* PrintDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FD98C1DAC7DC4001FE3B2 /* PrintDemoUITests.m */; };
+		EC0FD99B1DAC7DD7001FE3B2 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EC0FD99A1DAC7DD7001FE3B2 /* download.jpeg */; };
+		EC18C6C81DAF6B22000920E3 /* libPrinter_153.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18C6C61DAF6B22000920E3 /* libPrinter_153.a */; };
+		EC18C6CB1DAF6B50000920E3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18C6CA1DAF6B50000920E3 /* ExternalAccessory.framework */; };
+		EC18C6CD1DAF6B6D000920E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18C6CC1DAF6B6D000920E3 /* Foundation.framework */; };
+		EC18C6CF1DAF6B73000920E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18C6CE1DAF6B73000920E3 /* UIKit.framework */; };
+		EC18C6D11DAF6B7B000920E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC18C6D01DAF6B7B000920E3 /* CoreGraphics.framework */; };
+		EC18C6D31DAF71C5000920E3 /* sample_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC18C6D21DAF71C5000920E3 /* sample_6.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EC0FD97E1DAC7DC4001FE3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC0FD95C1DAC7DC4001FE3B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC0FD9631DAC7DC4001FE3B2;
-			remoteInfo = PrintDemo;
-		};
-		EC0FD9891DAC7DC4001FE3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC0FD95C1DAC7DC4001FE3B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC0FD9631DAC7DC4001FE3B2;
-			remoteInfo = PrintDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EC0FD9641DAC7DC4001FE3B2 /* PrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +33,22 @@
 		EC0FD9731DAC7DC4001FE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC0FD9761DAC7DC4001FE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC0FD9781DAC7DC4001FE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC0FD97D1DAC7DC4001FE3B2 /* PrintDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0FD9811DAC7DC4001FE3B2 /* PrintDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintDemoTests.m; sourceTree = "<group>"; };
 		EC0FD9831DAC7DC4001FE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC0FD9881DAC7DC4001FE3B2 /* PrintDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0FD98C1DAC7DC4001FE3B2 /* PrintDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintDemoUITests.m; sourceTree = "<group>"; };
 		EC0FD98E1DAC7DC4001FE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0FD99A1DAC7DD7001FE3B2 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		EC18C6C21DAF6B22000920E3 /* CallbackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallbackData.h; sourceTree = "<group>"; };
+		EC18C6C31DAF6B22000920E3 /* CPCLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCLPrinter.h; sourceTree = "<group>"; };
+		EC18C6C41DAF6B22000920E3 /* EABluetoothPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EABluetoothPort.h; sourceTree = "<group>"; };
+		EC18C6C51DAF6B22000920E3 /* ESCPOSPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCPOSPrinter.h; sourceTree = "<group>"; };
+		EC18C6C61DAF6B22000920E3 /* libPrinter_153.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPrinter_153.a; sourceTree = "<group>"; };
+		EC18C6C71DAF6B22000920E3 /* POSPrinterFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSPrinterFinder.h; sourceTree = "<group>"; };
+		EC18C6CA1DAF6B50000920E3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		EC18C6CC1DAF6B6D000920E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC18C6CE1DAF6B73000920E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC18C6D01DAF6B7B000920E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC18C6D21DAF71C5000920E3 /* sample_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +56,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0FD97A1DAC7DC4001FE3B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0FD9851DAC7DC4001FE3B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EC18C6D11DAF6B7B000920E3 /* CoreGraphics.framework in Frameworks */,
+				EC18C6CF1DAF6B73000920E3 /* UIKit.framework in Frameworks */,
+				EC18C6CD1DAF6B6D000920E3 /* Foundation.framework in Frameworks */,
+				EC18C6CB1DAF6B50000920E3 /* ExternalAccessory.framework in Frameworks */,
+				EC18C6C81DAF6B22000920E3 /* libPrinter_153.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +74,7 @@
 				EC0FD9801DAC7DC4001FE3B2 /* PrintDemoTests */,
 				EC0FD98B1DAC7DC4001FE3B2 /* PrintDemoUITests */,
 				EC0FD9651DAC7DC4001FE3B2 /* Products */,
+				EC18C6C91DAF6B50000920E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				EC0FD9641DAC7DC4001FE3B2 /* PrintDemo.app */,
-				EC0FD97D1DAC7DC4001FE3B2 /* PrintDemoTests.xctest */,
-				EC0FD9881DAC7DC4001FE3B2 /* PrintDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +89,9 @@
 		EC0FD9661DAC7DC4001FE3B2 /* PrintDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EC18C6C01DAF6B22000920E3 /* Libs */,
+				EC0FD99A1DAC7DD7001FE3B2 /* download.jpeg */,
+				EC18C6D21DAF71C5000920E3 /* sample_6.jpg */,
 				EC0FD96A1DAC7DC4001FE3B2 /* AppDelegate.h */,
 				EC0FD96B1DAC7DC4001FE3B2 /* AppDelegate.m */,
 				EC0FD96D1DAC7DC4001FE3B2 /* ViewController.h */,
@@ -140,6 +131,38 @@
 			path = PrintDemoUITests;
 			sourceTree = "<group>";
 		};
+		EC18C6C01DAF6B22000920E3 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EC18C6C11DAF6B22000920E3 /* Printer */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		EC18C6C11DAF6B22000920E3 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				EC18C6C21DAF6B22000920E3 /* CallbackData.h */,
+				EC18C6C31DAF6B22000920E3 /* CPCLPrinter.h */,
+				EC18C6C41DAF6B22000920E3 /* EABluetoothPort.h */,
+				EC18C6C51DAF6B22000920E3 /* ESCPOSPrinter.h */,
+				EC18C6C61DAF6B22000920E3 /* libPrinter_153.a */,
+				EC18C6C71DAF6B22000920E3 /* POSPrinterFinder.h */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		EC18C6C91DAF6B50000920E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC18C6D01DAF6B7B000920E3 /* CoreGraphics.framework */,
+				EC18C6CE1DAF6B73000920E3 /* UIKit.framework */,
+				EC18C6CC1DAF6B6D000920E3 /* Foundation.framework */,
+				EC18C6CA1DAF6B50000920E3 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,42 +183,6 @@
 			productReference = EC0FD9641DAC7DC4001FE3B2 /* PrintDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC0FD97C1DAC7DC4001FE3B2 /* PrintDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC0FD9941DAC7DC4001FE3B2 /* Build configuration list for PBXNativeTarget "PrintDemoTests" */;
-			buildPhases = (
-				EC0FD9791DAC7DC4001FE3B2 /* Sources */,
-				EC0FD97A1DAC7DC4001FE3B2 /* Frameworks */,
-				EC0FD97B1DAC7DC4001FE3B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC0FD97F1DAC7DC4001FE3B2 /* PBXTargetDependency */,
-			);
-			name = PrintDemoTests;
-			productName = PrintDemoTests;
-			productReference = EC0FD97D1DAC7DC4001FE3B2 /* PrintDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EC0FD9871DAC7DC4001FE3B2 /* PrintDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC0FD9971DAC7DC4001FE3B2 /* Build configuration list for PBXNativeTarget "PrintDemoUITests" */;
-			buildPhases = (
-				EC0FD9841DAC7DC4001FE3B2 /* Sources */,
-				EC0FD9851DAC7DC4001FE3B2 /* Frameworks */,
-				EC0FD9861DAC7DC4001FE3B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC0FD98A1DAC7DC4001FE3B2 /* PBXTargetDependency */,
-			);
-			name = PrintDemoUITests;
-			productName = PrintDemoUITests;
-			productReference = EC0FD9881DAC7DC4001FE3B2 /* PrintDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,18 +196,6 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = MQAGCVCE9F;
 						ProvisioningStyle = Automatic;
-					};
-					EC0FD97C1DAC7DC4001FE3B2 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = MQAGCVCE9F;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EC0FD9631DAC7DC4001FE3B2;
-					};
-					EC0FD9871DAC7DC4001FE3B2 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = MQAGCVCE9F;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EC0FD9631DAC7DC4001FE3B2;
 					};
 				};
 			};
@@ -238,8 +213,6 @@
 			projectRoot = "";
 			targets = (
 				EC0FD9631DAC7DC4001FE3B2 /* PrintDemo */,
-				EC0FD97C1DAC7DC4001FE3B2 /* PrintDemoTests */,
-				EC0FD9871DAC7DC4001FE3B2 /* PrintDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,22 +223,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0FD9771DAC7DC4001FE3B2 /* LaunchScreen.storyboard in Resources */,
+				EC0FD99B1DAC7DD7001FE3B2 /* download.jpeg in Resources */,
 				EC0FD9741DAC7DC4001FE3B2 /* Assets.xcassets in Resources */,
 				EC0FD9721DAC7DC4001FE3B2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0FD97B1DAC7DC4001FE3B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0FD9861DAC7DC4001FE3B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EC18C6D31DAF71C5000920E3 /* sample_6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,36 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC0FD9791DAC7DC4001FE3B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC0FD9821DAC7DC4001FE3B2 /* PrintDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0FD9841DAC7DC4001FE3B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC0FD98D1DAC7DC4001FE3B2 /* PrintDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EC0FD97F1DAC7DC4001FE3B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC0FD9631DAC7DC4001FE3B2 /* PrintDemo */;
-			targetProxy = EC0FD97E1DAC7DC4001FE3B2 /* PBXContainerItemProxy */;
-		};
-		EC0FD98A1DAC7DC4001FE3B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC0FD9631DAC7DC4001FE3B2 /* PrintDemo */;
-			targetProxy = EC0FD9891DAC7DC4001FE3B2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC0FD9701DAC7DC4001FE3B2 /* Main.storyboard */ = {
@@ -424,11 +356,16 @@
 		EC0FD9921DAC7DC4001FE3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MQAGCVCE9F;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PrintDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PrintDemo/Libs/Printer",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.citigo.KVManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -436,62 +373,17 @@
 		EC0FD9931DAC7DC4001FE3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MQAGCVCE9F;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PrintDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PrintDemo/Libs/Printer",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.citigo.KVManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EC0FD9951DAC7DC4001FE3B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = MQAGCVCE9F;
-				INFOPLIST_FILE = PrintDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintDemo.app/PrintDemo";
-			};
-			name = Debug;
-		};
-		EC0FD9961DAC7DC4001FE3B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = MQAGCVCE9F;
-				INFOPLIST_FILE = PrintDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintDemo.app/PrintDemo";
-			};
-			name = Release;
-		};
-		EC0FD9981DAC7DC4001FE3B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = MQAGCVCE9F;
-				INFOPLIST_FILE = PrintDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PrintDemo;
-			};
-			name = Debug;
-		};
-		EC0FD9991DAC7DC4001FE3B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = MQAGCVCE9F;
-				INFOPLIST_FILE = PrintDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.citigo.PrintDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PrintDemo;
 			};
 			name = Release;
 		};
@@ -514,22 +406,7 @@
 				EC0FD9931DAC7DC4001FE3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EC0FD9941DAC7DC4001FE3B2 /* Build configuration list for PBXNativeTarget "PrintDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC0FD9951DAC7DC4001FE3B2 /* Debug */,
-				EC0FD9961DAC7DC4001FE3B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EC0FD9971DAC7DC4001FE3B2 /* Build configuration list for PBXNativeTarget "PrintDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC0FD9981DAC7DC4001FE3B2 /* Debug */,
-				EC0FD9991DAC7DC4001FE3B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
